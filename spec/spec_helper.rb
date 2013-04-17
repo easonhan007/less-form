@@ -8,5 +8,9 @@ require 'less-form'
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
 
 RSpec.configure do |config|
-  
+
+	def html_path(file_name)  
+		'file:///' + File.expand_path(File.join('.', 'spec', 'html', "#{file_name}.html"))
+	end
+
 end
