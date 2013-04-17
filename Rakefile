@@ -15,11 +15,11 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "less-form"
-  gem.homepage = "http://github.com/nbkhic@qq.com/less-form"
+  gem.homepage = "https://github.com/easonhan007/less-form"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "nbkhic@qq.com"
+  gem.summary = %Q{form element wrapper for selenium-webdriver}
+  gem.description = %Q{form element wrapper for selenium-webdriver, make your test code more readable and make your form element handing easy}
+  gem.email = "nbkhic@gmail.com"
   gem.authors = ["easonhan"]
   # dependencies defined in Gemfile
 end
