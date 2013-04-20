@@ -8,6 +8,7 @@ require 'less-form/checkbox'
 require 'less-form/table'
 require 'less-form/select'
 require 'less-form/options'
+require 'less-form/button'
 require 'less-form/form'
 
 

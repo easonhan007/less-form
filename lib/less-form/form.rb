@@ -34,6 +34,10 @@ module LessForm
 		def select how, what
 			Select.new locate(how, what)
 		end
+
+		def button how, what
+			Button.new locate(how, what)
+		end
 		
 		def locate how, what
 			@wd.find_element(how ,what)

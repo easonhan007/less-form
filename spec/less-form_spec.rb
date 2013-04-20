@@ -62,6 +62,10 @@ describe LessForm do
 		@dr.find_elements(css: 'option').detect {|e| e.selected?}.attribute('value').should eq('bus')
 	end
 
+	it 'should click button' do
+		LessForm::Form.new(@dr).button(:name, 'btn').click
+	end
+
 	after :all do
 		@dr.close
 	end
